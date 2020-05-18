@@ -53,7 +53,7 @@ export default class TodoApp extends Component {
         <ul>
           {items.map((data, index) => (
             <li key={index}>
-              {data} <i class="fas fa-edit"></i> <i className="fas fa-trash-alt" onClick={() => this.deleteItem(index)}></i>
+              {data} <i className="fas fa-trash-alt" onClick={() => this.deleteItem(index)}></i>
             </li>
           ))}
         </ul>
